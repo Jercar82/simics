@@ -5,7 +5,8 @@ Le mot de passe du compte "operator" ("operator" par défaut) peut être configu
 ```
 RUN echo SetEnv OPERATOR_PWD operator >> /etc/apache2/conf-enabled/environment.conf
 ```
-
+Le compte user peut poser problème sur certaines distribution, il est recommandé de l'enlever ce qui donnera
+RUN pip3 install pymodbus@git+https://github.com/haxom/pymodbus.git
 ## Construction
 1. Se déplacer dans le dossier $git_simics$/Eolienne/
 2. Executer
